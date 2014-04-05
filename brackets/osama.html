@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Osama Bin Laden</title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#mid').click(function(){
+					alert("Dhishkyaun.");		
+					window.location = 'final.html';						
+				});				
+			});
+		</script>
+		<style>
+		body
+		{
+		background-color:Black;
+		overflow:hidden;
+		
+		}
+			#mid
+			{
+				cursor: crosshair;
+				position: relative;
+				left: -4px;
+			}	
+			#rght
+			{
+				position: relative;
+				left: -8px;
+			}
+			#dwn
+			{
+				position: relative;
+				top: -5px;
+			}	
+			.wrapper
+			{
+				width: 960px;
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<img src="osama_01.jpg" />		
+			<div id="os3">
+				<img src="osama_02.jpg" />
+				<img id="mid" src="osama_03.jpg" />
+				<img id="rght" src="osama_04.jpg" />
+			</div>
+			<img id="dwn" src="osama_05.jpg" />
+		</div>
+	</body>
+</html>

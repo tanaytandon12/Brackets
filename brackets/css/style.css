@@ -1,0 +1,160 @@
+.navigation{
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.navigation .item{
+    position:absolute;
+}
+.user{
+    top:8%;
+    left:7%;
+}
+.home{
+   top:8%;
+   left:22%;
+}
+.shop{
+   top:8%;
+   left:37%;
+}
+.camera{
+   top:20%;
+   left:15%;
+}
+.fav{
+  top: 64%;
+left: 76%;
+-moz-transform: scale(0.7) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(0.7) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-o-transform: scale(0.7) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(0.7) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+transform: scale(0.7) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+a.icon{
+    width:52px;
+    height:52px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
+.user a.icon{
+    background:transparent url(../images/user.png) no-repeat 0px 0px;
+}
+.home a.icon{
+    background:transparent url(../images/home.png) no-repeat 0px 0px;
+}
+.shop a.icon{
+    background:transparent url(../images/leader.png) no-repeat 0px 0px;
+}
+.camera a.icon{
+    background:transparent url(../images/forum.png) no-repeat 0px 0px;
+}
+.fav a.icon{
+    background:transparent url(../images/fav.png) no-repeat 0px 0px;
+}
+.suf a.icon{
+    background:transparent url(../images/map.png) no-repeat 0px 0px;
+}
+ #about
+    {
+background:transparent url(../images/about_us.png) no-repeat 0px 0px;
+height:176px;
+width:176px;
+}        
+
+ #about:hover 
+ {
+         background-position:0px -176px;
+
+     }
+     #portfolio
+     {
+      background:transparent url(../images/credits.png) no-repeat 0px 0px;
+height:176px;
+width:176px;   
+margin-left: -83px;
+margin-top: -30px;
+         }
+#portfolio:hover 
+ {
+         background-position:0px -176px;
+
+     }
+     #contact
+     {
+         background:transparent url(../images/phone.png) no-repeat 0px 0px;
+height:176px;
+width:176px;
+margin-left: 96px;
+margin-top: -192px;
+         }
+         #contact:hover 
+ {
+         background-position:0px -176px;
+
+     }
+    
+.navigation .item a.active{
+    background-position:0px -52px;
+}
+.item img.circle{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:52px;
+    height:52px;
+    opacity:0.1;
+}
+.item h2{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:18px;
+    top:0px;
+    left:52px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+.item h2.active{
+    color:#fff;
+    text-shadow:1px 0px 1px #555;
+}
+
+.item ul{
+    list-style:none;
+    position:absolute;
+    top:60px;
+    left:25px;
+    display:none;
+}
+.item ul li a{
+    font-size:15px;
+    text-decoration:none;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#222;
+    padding:3px;
+    float:left;
+    clear:both;
+    width:100px;
+    text-shadow:1px 1px 1px #fff;
+}
+.item ul li a:hover{
+    background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+}
+
